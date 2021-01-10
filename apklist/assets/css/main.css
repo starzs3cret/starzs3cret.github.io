@@ -3755,15 +3755,15 @@ input, select, textarea {
 			}
 
 				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgb(255, 255, 255);
+					border-color: #828282;
 				}
 
 				#header .image.phone .inner:before {
-					background: rgba(255, 255, 255);
+					background:#828282;
 				}
 
 				#header .image.phone .inner:after {
-					border-color: rgba(255, 255, 255);
+					border-color: #828282;
 				}
 
 		#header ul.alt > li {
