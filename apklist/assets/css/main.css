@@ -2325,14 +2325,14 @@ input, select, textarea {
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 220;
 		}
 
 			.image.phone img {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 100%;
+				width: 220;
 			}
 
 			.image.phone .inner, .image.phone:before, .image.phone:after {
@@ -3613,7 +3613,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: inherit;
+		background-color:rgb(214,162,148);
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3627,7 +3627,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.jpg"), url("images/pattern-size1.svg");
+		background-image: linear-gradient(45deg, rgba(214,162,148,1) 0%, rgba(21,65,102,1) 74%), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3892,7 +3892,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				background-image: linear-gradient(45deg, rgba(214,162,148,1) 0%, rgba(21,65,102,1) 74%), url("images/pattern-size2.svg");
 			}
 
 		}
@@ -3943,7 +3943,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				background-image: linear-gradient(45deg, rgba(214,162,148,1) 0%, rgba(21,65,102,1) 74%), url("images/pattern-size3.svg");
 			}
 
 				#header h1 {
